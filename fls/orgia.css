@@ -1,0 +1,192 @@
+a:link {
+	color: #666666;
+	text-decoration: none
+}
+
+a:visited {
+	color: #777777;
+	text-decoration: none
+}
+
+a:hover {
+	color: #000000;
+	text-decoration:underline
+}
+
+body {
+	background: #efefef;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.submit	{
+	height: 17px;
+	background-color: #cccccc;
+	font-family: verdana;
+	font-size: 12px;
+	color: #666666;
+	border: 1px solid #666666;
+}
+
+textarea {
+	border:1px solid #666666;
+	background: #FFFFFF;
+}
+
+input.field {
+	border: 1px solid #666666;
+}
+
+h1 {
+	text-decoration: none;
+	font-size : 16px;
+	font-style : normal;
+	margin-bottom: 0px;
+}
+
+h4 {
+	margin-bottom: 0px;
+}
+
+.akkord {
+	text-decoration: none;
+	font-size : 12px;
+	font-style : normal;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.radost {
+	text-decoration: none;
+	font-size : 9px;
+	font-style : normal;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.headline {
+	letter-spacing: 12;
+}
+
+.fon {
+	background-repeat:no-repeat;
+}
+
+.otstup {
+	margin-right:10;
+}
+
+.title {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 35;
+}
+
+.mp3 {
+	margin-top: 40px;
+	font-size : 14px;
+}
+
+.slovar {
+	text-decoration: none;
+	font-size : 14px;
+	font-style : normal;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.value {
+	font-style : bold;
+	cursor: help;
+}
+
+.links {
+	font-size : 12px;
+}
+
+.links_vtor {
+	font-size : 11px;
+}
+
+table.color {
+	padding-bottom: 20px;
+}
+
+tr.odd {
+	background-color: #dddddd;
+}
+
+/* Тексты песен */
+.message_list {
+	background-color: #efefef;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 385px;
+	display: none;
+	z-index: 500;
+	position: absolute;
+	border: 1px solid;
+}
+.message_list li {
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li
+{
+	float: left;
+	display: block;
+	width: auto;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.message_head {
+	background-color: #dddddd;
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	margin: 0;	
+}
+.message_head cite {
+	font-size: 80%;
+	font-weight: bold;
+	font-style: normal;
+}
+.message_body {
+	padding: 5px 10px 10px;
+	font: 90% serif;
+	min-height: 10px;
+	max-height: 400px;
+	overflow: auto;
+}
+.message_body a{
+	display: block;
+}
+.collapse_buttons {
+	border: 1px dotted #000000;
+	padding: 1px 1px 1px 1px;
+	display: block;
+	width: 90%;
+	background-color: #dddddd;
+	font: bold 80% serif;
+}
+.collapse_buttons a {
+	margin-left: 0px;
+	padding-top: 0px;
+}
+.collpase_all_message {
+	
+}
+
+.irc {
+	font-size: 80%;
+}
+
+.subscribe {
+	font-size: 80%;
+}

@@ -1,0 +1,19 @@
+User-agent: Yandex
+Disallow: /bolero/
+Disallow: /guestbook/
+Disallow: /cgi-bin/
+Disallow: /filepost/
+Disallow: /feedback/
+Disallow: /irc/
+Host: orgius.ru
+
+User-agent: *
+Disallow: /bolero/
+Disallow: /guestbook/
+Disallow: /cgi-bin/
+Disallow: /filepost/
+Disallow: /feedback/
+Disallow: /irc/
+
+
+Sitemap: http://orgius.ru/sitemap.xml
